@@ -15,11 +15,11 @@ atmega128rfa1.upload.speed=57600
 
 atmega128rfa1.bootloader.tool=avrdude
 atmega128rfa1.bootloader.low_fuses=0xFF
-atmega128rfa1.bootloader.high_fuses=0xDA
+atmega128rfa1.bootloader.high_fuses=0xD8
 atmega128rfa1.bootloader.extended_fuses=0xF5
 atmega128rfa1.bootloader.unlock_bits=0x3F
 atmega128rfa1.bootloader.lock_bits=0x0F
-atmega128rfa1.bootloader.file=atmega/ATmegaBOOT_168_atmega128rfa1.hex
+atmega128rfa1.bootloader.file=ATmegaBOOT_atmega128rfa1_ota.hex
 
 atmega128rfa1.build.mcu=atmega128rfa1
 atmega128rfa1.build.f_cpu=16000000L

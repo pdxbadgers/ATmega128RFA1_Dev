@@ -38,6 +38,8 @@
 #define analogInputToDigitalPin(p)  ((p < 8) ? (p) + 26 : -1)
 #define digitalPinHasPWM(p)         ((p) == 3 ||(p) == 4 ||(p) == 5 ||(p) == 8 ||(p) == 9 ||(p) == 19 ||(p) == 34 || (p) == 35)
 
+#define LED_BUILTIN 34
+
 const static uint8_t SS   = 10;
 const static uint8_t MOSI = 11;
 const static uint8_t MISO = 12;
